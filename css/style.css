@@ -1,15 +1,4 @@
-/*!
- * Start Bootstrap - Freelancer v5.1.3 (https://startbootstrap.com/template-overviews/freelancer)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
- */
 
-/*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9556,6 +9545,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .page-section .page-section-heading {
+  font-family: 'Dosis', cursive;
   font-size: 2.25rem;
   line-height: 2rem;
 }
@@ -9637,7 +9627,7 @@ a.text-dark:hover, a.text-dark:focus {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Dosis', "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
 }
 
@@ -9713,6 +9703,9 @@ a.text-dark:hover, a.text-dark:focus {
 .masthead .masthead-subheading {
   font-size: 1.25rem;
 }
+.masthead-heading, .masthead-subheading {
+  text-shadow: 4px 5px rgba(0, 0, 0, 0.52);
+}
 
 .masthead .masthead-avatar {
   width: 15rem;
@@ -9723,14 +9716,17 @@ a.text-dark:hover, a.text-dark:focus {
   object-fit: cover;
   object-position: center;
 }
-
+.masthead-heading {
+  font-family: 'Dosis', cursive;
+  font-size: 6rem;
+}
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
-    font-size: 4rem;
+    font-size: 6rem;
     line-height: 3.5rem;
   }
   .masthead .masthead-subheading {
@@ -9855,9 +9851,10 @@ form .row:first-child .floating-label-form-group {
 }
 
 .background-slides {
+  background-color: #000;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   transition-duration: 500ms;
-  background-image: url('../img/backgrounds/background-1.png')
+  background-image: url('../img/backgrounds/background-1.png');
 }
