@@ -82,7 +82,7 @@ setInterval(() => {
 //typing heading
 if ($('.typing-heading').length == 1) {
   var typed = new Typed('.typing-heading-words', {
-    strings: ["What's up weirdo","My name is Nahzah","I make VRChat avatars","Checkout my work below"],
+    strings: ["What's up weirdo","My name is Nahzah","I make VRChat avatars"],
     typeSpeed: 80,
     loop: true,
     backDelay: 1100,
