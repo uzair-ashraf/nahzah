@@ -9853,3 +9853,11 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
 }
+
+.background-slides {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition-duration: 500ms;
+  background-image: url('../img/backgrounds/background-1.png')
+}

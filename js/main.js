@@ -63,7 +63,19 @@
 })(jQuery); // End of use strict
 
 //Background slideshow
-
-const backgrounds = [
-  "../img/backgrounds/"
+var backgrounds = [
+  "img/backgrounds/background-2.png",
+  "img/backgrounds/background-3.png",
+  "img/backgrounds/background-4.png",
+  "img/backgrounds/background-5.png",
+  "img/backgrounds/background-6.png",
+  "img/backgrounds/background-7.png",
+  "img/backgrounds/background-8.png",
 ];
+var count = 0;
+setInterval(() => {
+  $(".background-slides").css("background-image", `url(${backgrounds[count]})`)
+  count === 6
+  ? count = 1
+  : count++
+},  4000)
