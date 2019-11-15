@@ -79,3 +79,13 @@ setInterval(() => {
   ? count = 1
   : count++
 },  4000)
+//typing heading
+if ($('.typing-heading').length == 1) {
+  var typed = new Typed('.typing-heading-words', {
+    strings: ["What's up weirdo","My name is Nahzah","I make VRChat avatars","Checkout my work below"],
+    typeSpeed: 80,
+    loop: true,
+    backDelay: 1100,
+    backSpeed: 30
+  });
+}

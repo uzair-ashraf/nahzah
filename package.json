@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/uzair-ashraf/nahzah/issues"
   },
-  "homepage": "https://github.com/uzair-ashraf/nahzah#readme"
+  "homepage": "https://github.com/uzair-ashraf/nahzah#readme",
+  "dependencies": {
+    "typed.js": "^2.0.11"
+  }
 }
